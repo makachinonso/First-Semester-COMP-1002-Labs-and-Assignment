@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="this is the code for my week 2 lab">
+	<meta name="robots" content="noindex, nofollow">
+	<title>Pizza Shop Website</title>
+	<!-- My fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+	<!-- adding my CSS stylesheet -->
+	<link rel="stylesheet" type="text/css" href="Assign2styles.css">
+</head>
+<body>
+	<!--Makachi Charles Student Number: 200591594-->
+	<header>
+		<div>
+			<a href="Assign2.html"><img src="pizzashow.jpg" alt="shoplogo.jpg" width="80" height="80"></a>
+		</div>
+		<!-- My navigation bar -->
+		<nav>
+			<menu><!-- The list items contain hyper links to different sections of the webpage -->
+	          <li><a href="Assign2.html">Home</a></li>
+	          <li><a href="#odernow">Menu</a></li>
+	          <li><a href="#odernow">Order</a></li>
+	          <li><a href="#">Blog</a></li>
+	          <li><a href="#aboutus">About</a></li>
+	          <li><a href="#contact">Contact</a></li>
+        	</menu>
+		</nav>
+	</header>
+	<section class="intro">
+		<h1>Hello welcome to Charles's Pizza on the Go</h1><!-- Main heading -->
+	</section>
+	<main>
+		<section class="order" id="odernow">
+			<div>
+				<form method="post" action="somefile" enctype="multipart/form-data"><!-- the Ordering forms -->
+					<label for="name">Customer Name:</label>
+					<input type="text" name="fullname" placeholder="Full Name" id="name" required>
+					<br>
+					<label for="tele">Telephone:</label>
+					<input type="number" name="telephone" placeholder="Telephone" id="tele" required>
+					<br>
+					<label for="mail">Email:</label>
+					<input type="email" name="email" placeholder="Your email" id="mail" required>
+					<br>
+					<fieldset>
+						<legend><h2> Pizza Size</h2></legend>
+						<label>Small</label>
+						<input type="radio" name="size" value="small">
+						<br>
+						<label>Medium</label>
+						<input type="radio" name="size" value="medium">
+						<br>
+						<label>Large</label>
+						<input type="radio" name="size" value="large">
+						<br>
+					</fieldset>
+					<fieldset>
+						<legend><h2>Pizza Toppings</h2></legend>
+						<label>Bacon</label>
+						<input type="checkbox" name="bacon" value="Bacon">
+						<br>
+						<label>Extra Cheese</label>
+						<input type="checkbox" name="cheese" value="Extra Cheese">
+						<br>
+						<label>Onion</label>
+						<input type="checkbox" name="Onion" value="Onion">
+						<br>
+						<label>Mushroom</label>
+						<input type="checkbox" name="Onion" value="Mushroom">
+						<br>
+					</fieldset>
+					<label>No. Of Pieces :</label>
+					<input type="number" name="no of pieces" placeholder="No. Of Pieces">
+					<br>
+					<label>Preferred delivery time:</label>
+					<input type="time" min="11:00" max="21:00" step="60" name="time">
+					<br>
+					<label>Delivery instructions:</label>
+					<textarea maxlength=25 placeholder="Delivery instructions"></textarea>
+					<br>
+					<input type="Reset" value="Reset">
+					<input type="submit" value="Process order">
+				</form>
+			</div>
+		</section>
+	</main>
+	<!-- Footer -->
+	<footer>
+		<div id="contact"><!-- contact info -->
+			<h3>Contact Us</h3>
+  			<p>Phone: 555-5555</p>
+  			<p>Location: 123 Street, Barrie, Ontario</p>
+		</div>
+		<div id="aboutus">
+			<h3>About Us</h3>
+  			<p>A family run pizza shop in Cundles, Barrie. Providing the community with tasty Pizza since 1990</p>
+		</div>
+		<!-- website copyright -->
+		<div>
+			<p>&copy; 2024 Charles and Co.. All rights reserved.</p>
+		</div>
+	</footer>
+</body>
+</html>

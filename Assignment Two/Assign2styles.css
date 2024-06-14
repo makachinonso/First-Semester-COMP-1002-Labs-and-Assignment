@@ -1,0 +1,81 @@
+body{
+	margin: 0px;
+	background-image: url("pizzatable.jpg");
+	background-size: cover;
+	background-color: #FFCAAA;
+	background-attachment: fixed;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: "Roboto Slab", sans-serif;/**my fonts**/
+}
+a,li,label{
+	font-family: "Rubik", sans-serif;/**my fonts**/
+	font-size: 20px;
+	text-decoration: none;
+}
+/**Header**/
+header{
+	grid-area: header;
+	display: grid;
+	grid-template-columns: 60% 40%;
+	align-items: center;
+	background-color: #552000;
+	height: 100px;
+}
+header > div{
+	width: auto;
+	height: 115;
+	padding-left: 20px;
+}
+
+/**Navigation Menu**/
+header > nav > menu{
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	padding-right: 10px;
+	padding-left: 10px;
+	margin: 0px;
+}
+header > nav > menu > li > a{
+	color: #D4916A;
+	text-decoration: none;
+	padding: 10px;
+
+}
+
+/**Main header section**/
+.intro{
+	background-color: #FFCAAA;
+    border: 15px solid #552000;
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+
+}
+.intro > h1{
+	color: #552000;
+	font-size: 30px;
+}
+
+/**Order**/
+.order {
+	border: 15px solid #552000;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(255, 202, 170, 0.5);
+}
+h2 {
+	color: #552000;
+}
+h3{
+	color: #FFCAAA;
+}
+
+/**Footer**/
+footer{
+	background-color: #552000;
+}
+footer > div > p{
+	color: #FFCAAA;
+}
