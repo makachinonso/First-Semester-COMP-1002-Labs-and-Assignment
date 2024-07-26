@@ -1,0 +1,372 @@
+/** desktop styling **/
+html {
+    margin:0;
+    padding:0;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #A7C763;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 180px;
+}
+h2{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 680;
+    font-style: normal;
+}
+h3{
+    text-align: center;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 680;
+    font-style: normal;
+    font-size: 30px;
+
+}
+h4{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 580;
+    font-style: normal;
+    font-size: 20px;
+}
+p{
+    text-align: center
+}
+/** the main poster body and picture styling **/
+.container{
+    width: 1012px;
+    height: 1500px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../Image/pic-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    display: grid;
+    grid-template-rows: 300px 300px 300px 300px 300px;
+}
+/** upper texts of the movie poster styling **/
+.grid1{
+    border: 5px solid transparent;
+    display: grid;
+    grid-template-areas:
+    'nactor'
+    'actor'
+    'actor'
+    'title'
+    'title'
+    'title'
+    'quota';
+}
+/** names of the actors styling **/
+.noactor{
+    grid-area: nactor;
+    margin: 0px;
+    height: 25px;
+}
+.actor-names{
+    grid-area: actor;
+    display: grid;
+    grid-template-areas:
+            'zero one two three five';
+    grid-template-columns: 202px 202px 202px 202px 202px;
+    margin: 0px;
+    height: 90px;
+}
+.actor0{
+    grid-area: zero;
+    border: 5px solid transparent;
+    margin: 0px;
+}
+.actor1{
+    grid-area: one;
+    border: 5px solid transparent;
+    margin: 0px;
+    padding: 50px 0px 0px 0px;
+}
+.emily{
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.blunt{
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+}
+.actor2{
+    grid-area: two;
+    border: 5px solid transparent;
+    margin: 0px;
+    padding: 50px 0px 0px 0px;
+}
+.beni{
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.toro{
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+}
+.actor3{
+    grid-area: three;
+    border: 5px solid transparent;
+    margin: 0px;
+    padding: 50px 0px 0px 0px;
+}
+.josh{
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.bro{
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+}
+.actor5{
+    grid-area: five;
+    border: 5px solid transparent;
+    margin: 0px;
+}
+/** movie title styling **/
+.movie-title{
+    grid-area: title;
+    display: grid;
+    grid-template-areas:
+            'support1 sicario1 support2';
+    grid-template-columns: auto 780px auto;
+    margin: 0px;
+    height: 120px;
+}
+.quote{
+    grid-area: quota;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    height: 50px;
+    border: 5px solid transparent;
+}
+.bor{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 50px 0px 0px 0px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    letter-spacing: 8px;
+    word-spacing: 7px;
+    font-weight: bold;
+}
+.support{
+    grid-area: support1;
+    border: 2px solid transparent;
+    margin: 0px;
+}
+.sicario{
+    grid-area: sicario1;
+    border: 2px solid transparent;
+    width: 780px;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+}
+.sica{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    border: 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.support2{
+    grid-area: support2;
+    border: 2px solid transparent;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.grid2{border: 5px solid transparent;}
+.grid3{border: 5px solid transparent;}
+.grid4{border: 5px solid transparent;}
+
+/** lower texts of the movie poster styling **/
+.grid5{
+    border: 5px solid transparent;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+}
+.bot1{border: 5px solid transparent;}
+.bot2{border: 5px solid transparent;}
+.bot3{
+    border: 5px solid transparent;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: auto 90px 170px 400px 90px 170px auto;
+}
+/** writer of the movie styling **/
+.written{
+    border: 2px solid transparent;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+}
+.writ{
+    color: white;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: -2px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.by{
+    color: white;
+    margin: 0;
+    padding: 40px 0px 0px 0px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.writer{
+    border: 2px solid transparent;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.taylor{
+    color: white;
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: -4px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+.sheri{
+    color: white;
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: -4px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+/** release date details styling **/
+.release{
+    border: 2px solid transparent;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+}
+.theater{
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    letter-spacing: 9px;
+    word-spacing: 10px;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+}
+.sept{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 60px;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+}
+/** director of the movie details styling **/
+.directed{
+    border: 2px solid transparent;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+}
+.di{
+    color: white;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: -2px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.by2{
+    color: white;
+    margin: 0;
+    padding: 40px 0px 0px 0px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.director{
+    border: 2px solid transparent;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.den{
+    color: white;
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: -4px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+.vil{
+    color: white;
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: -4px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+
